@@ -2,8 +2,8 @@ package pro.sky.mlfedorov.java_coursework_two.service;
 
 import pro.sky.mlfedorov.java_coursework_two.entity.Question;
 
-import java.util.Collection;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public interface QuestionService {
@@ -15,7 +15,7 @@ public interface QuestionService {
 
     Question remove(Question question);
 
-    Collection<Question> getAll();
+    List<Question> getAll();
 
     Question getRandomQuestion();
 
