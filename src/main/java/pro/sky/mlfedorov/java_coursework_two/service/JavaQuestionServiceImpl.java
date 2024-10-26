@@ -1,11 +1,13 @@
 package pro.sky.mlfedorov.java_coursework_two.service;
 
+import org.springframework.stereotype.Service;
 import pro.sky.mlfedorov.java_coursework_two.entity.Question;
 import pro.sky.mlfedorov.java_coursework_two.exceptions.QuestionAlreadyExists;
 import pro.sky.mlfedorov.java_coursework_two.exceptions.QuestionNotFoundException;
 
 import java.util.*;
 
+@Service
 public class JavaQuestionServiceImpl implements QuestionService {
     @Override
     public Question add(String question, String answer) {
