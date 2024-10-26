@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import pro.sky.mlfedorov.java_coursework_two.entity.Question;
-import pro.sky.mlfedorov.java_coursework_two.service.JavaQuestionServiceImpl;
 import pro.sky.mlfedorov.java_coursework_two.service.QuestionService;
 
 @RestController
